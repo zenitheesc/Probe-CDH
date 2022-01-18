@@ -35,7 +35,7 @@
 <p align="center">
     <a href="#environment-and-tools">Environment and Tools</a> •
     <a href="#Block-Diagram">Block Diagram</a> •
-    <a href="#Schematic">Schematic</a>
+    <a href="#Schematic">Schematic</a> • 
     <a href="#Board">Board</a>
 </p>
 
