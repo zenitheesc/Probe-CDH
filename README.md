@@ -34,6 +34,7 @@
 
 <p align="center">
     <a href="#environment-and-tools">Environment and Tools</a> •
+    <a href="#Z-Hub">Z-Hub</a> •
     <a href="#Block-Diagram">Block Diagram</a> •
     <a href="#Schematic">Schematic</a> • 
     <a href="#Board">Board</a>
@@ -49,6 +50,13 @@ This board was designed using KiCad 5.1.10.
 <img src="https://github.com/zenitheesc/Probe-CDH/blob/main/Other_Files/Images/Diagram.png"/>
 </p>
 
+## Z-Hub
+
+This board contains a Stack Connector, with the 2021 Z-Hub pinout.
+
+<p align = "center">
+<img src="https://github.com/zenitheesc/Probe-CDH/blob/main/Other_Files/Images/Z-Hub.png"/>
+</p>
 
 ## Schematic
 
