@@ -1,0 +1,12 @@
+### Missing 3D models - created on 2021-10-05 23:10
+### Printed by checking_3D_models plugin
+Board file: E:\Zenith\CubeSat 2020\Stack New\Caurin v.2.0\Caurin v.2.0\Caurin v.2.0.kicad_pcb
+3D missing models written to:
+E:\Zenith\CubeSat 2020\Stack New\Caurin v.2.0\Caurin v.2.0\Caurin v.2.0_missing3Dmodels.txt
+-------
+(u'U5', u'C:\\Program Files\\KiCad\\share\\kicad\\modules\\packages3d\\RF_GPS.3dshapes\\ublox_NEO.wrl')
+(u'Y1', u'C:\\Program Files\\KiCad\\share\\kicad\\modules\\packages3d\\Crystal.3dshapes\\Crystal_SMD_3215-2Pin_3.2x1.5mm.wrl')
+(u'16M1', u'C:\\Program Files\\KiCad\\share\\kicad\\modules\\packages3d\\Crystal.3dshapes\\Crystal_SMD_5032-4Pin_5.0x3.2mm.wrl')
+-------
+NBR of 3D missing models:3
+checked extensions ['.stp', '.step', '.stpZ']

@@ -1,22 +1,6 @@
-# How to use this template:
-
-When creating a new repository just select this template, or click on the green "use template" button
-
-![new-repo-gif](https://raw.githubusercontent.com/zenitheesc/new-zenith-template/assets/novo-repo.gif)
-
-[Adding the template to a NEW repository](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template)
-
-Do **NOT** check "Include All Branches"
-
-
-**Delete** this file (README.md). Choose a template and **rename** it as 'README.md'
-
-    For example: **Delete** this file and **rename** the "[TEMPLATE]README.md" to just "README.md". Wait a few minutes for the bot to process the changes 	and you're good to go 😃
-
----
-
-<h1 align="center" style="color:white; background-color:black">[PROJECT NAME]</h1>
-<h4 align="center">[insert *brief* project description]</h4>
+# Probe-CDH
+<h1 align="center" style="color:white; background-color:black">Probe-CDH</h1>
+<h4 align="center"> Telecommunication board for the Zenith's Stack architecture.</h4>
 
 <p align="center">
 	<a href="http://zenith.eesc.usp.br/">
@@ -25,48 +9,85 @@ Do **NOT** check "Include All Branches"
     <a href="https://eesc.usp.br/">
     <img src="https://img.shields.io/badge/Linked%20to-EESC--USP-black?style=for-the-badge"/>
     </a>
-    <a href="https://github.com/zenitheesc/new-zenith-template/blob/main/LICENSE">
-    <img src="https://img.shields.io/github/license/zenitheesc/new-zenith-template?style=for-the-badge"/>
+    <a href="https://github.com/zenitheesc/Probe-CDH/blob/main/LICENSE">
+    <img src="https://img.shields.io/github/license/zenitheesc/Probe-CDH?style=for-the-badge"/>
     </a>
-    <a href="https://github.com/zenitheesc/new-zenith-template/issues">
-    <img src="https://img.shields.io/github/issues/zenitheesc/new-zenith-template?style=for-the-badge"/>
+    <a href="https://github.com/zenitheesc/Probe-CDH/issues">
+    <img src="https://img.shields.io/github/issues/zenitheesc/Probe-CDH?style=for-the-badge"/>
     </a>
-    <a href="https://github.com/zenitheesc/new-zenith-template/commits/main">
-    <img src="https://img.shields.io/github/commit-activity/m/zenitheesc/new-zenith-template?style=for-the-badge">
+    <a href="https://github.com/zenitheesc/Probe-CDH/commits/main">
+    <img src="https://img.shields.io/github/commit-activity/m/zenitheesc/Probe-CDH?style=for-the-badge">
     </a>
-    <a href="https://github.com/zenitheesc/new-zenith-template/graphs/contributors">
-    <img src="https://img.shields.io/github/contributors/zenitheesc/new-zenith-template?style=for-the-badge"/>
+    <a href="https://github.com/zenitheesc/Probe-CDH/graphs/contributors">
+    <img src="https://img.shields.io/github/contributors/zenitheesc/Probe-CDH?style=for-the-badge"/>
     </a>
-    <a href="https://github.com/zenitheesc/new-zenith-template/commits/main">
-    <img src="https://img.shields.io/github/last-commit/zenitheesc/new-zenith-template?style=for-the-badge"/>
+    <a href="https://github.com/zenitheesc/Probe-CDH/commits/main">
+    <img src="https://img.shields.io/github/last-commit/zenitheesc/Probe-CDH?style=for-the-badge"/>
     </a>
-    <a href="https://github.com/zenitheesc/new-zenith-template/issues">
-    <img src="https://img.shields.io/github/issues-raw/zenitheesc/new-zenith-template?style=for-the-badge" />
+    <a href="https://github.com/zenitheesc/Probe-CDH/issues">
+    <img src="https://img.shields.io/github/issues-raw/zenitheesc/Probe-CDH?style=for-the-badge" />
     </a>
-    <a href="https://github.com/zenitheesc/new-zenith-template/pulls">
-    <img src = "https://img.shields.io/github/issues-pr-raw/zenitheesc/new-zenith-template?style=for-the-badge">
+    <a href="https://github.com/zenitheesc/Probe-CDH/pulls">
+    <img src = "https://img.shields.io/github/issues-pr-raw/zenitheesc/Probe-CDH?style=for-the-badge">
     </a>
 </p>
 
 <p align="center">
     <a href="#environment-and-tools">Environment and Tools</a> •
-    <a href="#steps-to-run-and-debug">Steps to run and debug</a> •
-    <a href="#how-to-contribute">How to contribute?</a>
+    <a href="#Block-Diagram">Block Diagram</a> •
+    <a href="#Schematic">Schematic</a>
+    <a href="#Board">Board</a>
 </p>
 
 ## Environment and tools
 
-`Add list of dependencies and software needed to run this project (if possible add the versions that were used in development).`
+This board was designed using KiCad 5.1.10.
 
-## Steps to run and debug
+## Block Diagram
 
-`A simple list of steps indicating how one can run and test the project.`
+<p align = "center">
+<img src="https://github.com/zenitheesc/Probe-CDH/blob/main/Other_Files/Images/Diagram.png"/>
+</p>
 
-## How to contribute
 
-`(optional, depends on the project) list of simple rules to help people work on the project.`
+## Schematic
 
-`Examples: How to format a pull request\n How to format an issue`
+The design was separated in hierarchical sheets to accommodate all components in an orderly way.
+
+The first page contains the STM32L476 with all its accompanying circuits; crystals, debugging LED, Boot solder jumper, decoupling capacitors and reset buttons. On the same page you find the stack connector along with a programming and debugging connector and an external GPS connector (can also be used for UART communication with external devices, it’s bad but it’s there).
+
+
+<p align = "center">
+<img src="https://github.com/zenitheesc/Probe-CDH/blob/main/Other_Files/Images/Schematic_Page_1.png"/>
+</p>
+
+The second page contains the two LoRa and (G)FSK radios, one capable of 2 W off transmission power when fed with 6 V (obtained with the linear regulator), and the other capable of 160 mW, used as a backup or low power option. Both of them are based on the Semtech SX1262 transceiver, for operation at 915 MHz. The u-blox NEO-M8N also lives on this page, with its backup super capacitor for hot starts.
+
+<p align = "center">
+<img src="https://github.com/zenitheesc/Probe-CDH/blob/main/Other_Files/Images/Schematic_Page_2.png"/>
+</p>
+
+The last page houses the remaining peripherals which include the SD Card, the 128 Mb Flash, the CAN Transceiver and the buzzer connector with its mosfet, which may also be used as an external actuator with a max current of 1 A (the mosfet actually handles up to 1,5 A but let’s not push it too far).  
+
+<p align = "center">
+<img src="https://github.com/zenitheesc/Probe-CDH/blob/main/Other_Files/Images/Schematic_Page_3.png"/>
+</p>
+
+
+## Board
+
+<p align = "center">
+<img src="https://github.com/zenitheesc/Probe-CDH/blob/main/Other_Files/Images/Top.png"/>
+</p>
+
+<p align = "center">
+<img src="https://github.com/zenitheesc/Probe-CDH/blob/main/Other_Files/Images/Bottom.png"/>
+</p>
+
+<p align = "center">
+<img src="https://github.com/zenitheesc/Probe-CDH/blob/main/Other_Files/Images/Perspective.png"/>
+</p>
+
 
 ---
 
