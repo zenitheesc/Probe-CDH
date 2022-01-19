@@ -1,4 +1,4 @@
-20830746360614638
+20834031444161240
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -87009,6 +87009,20 @@ varistor SIOV
 0
 2
 2
+Zenith_Homemade_Components
+Crystal_SMD_5032-4Pin_5.0x3.2mm
+SMD Crystal SERIES SMD2520/4 http://www.icbase.com/File/PDF/HKC/HKC00061008.pdf, 5.0x3.2mm^2 package
+SMD SMT crystal
+0
+4
+4
+Zenith_Homemade_Components
+Crystal_SMD_5032-4Pin_5.0x3.2mm_Hand_Soldering
+SMD Crystal SERIES SMD2520/4 http://www.icbase.com/File/PDF/HKC/HKC00061008.pdf, 5.0x3.2mm^2 package
+SMD SMT crystal
+0
+4
+4
 Zenith_Homemade_Components
 LGA-16_3x3mm_P0.5mm_LayoutBorder3x5y
 LGA, 16 Pin (http://www.st.com/resource/en/datasheet/lis331hh.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
