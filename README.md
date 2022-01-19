@@ -55,6 +55,13 @@ This board was designed using KiCad 5.1.10.
 This board contains a Stack Connector, with the 2021 Z-Hub pinout.
 
 
+<p align = "center">
+<img src="https://github.com/zenitheesc/Probe-CDH/blob/main/Other_Files/Images/Z-Hub.png"/>
+</p>
+
+
+
+
 <table>
   <thead>
     <tr>
@@ -66,42 +73,34 @@ This board contains a Stack Connector, with the 2021 Z-Hub pinout.
       <td>GND</td>
       <td>GND</td>
     </tr>
-
     <tr>
       <td>GND</td>
       <td>GND</td>
     </tr>
-
     <tr>
       <td>BAT+</td>
       <td>BAT+</td>
     </tr>
-
     <tr>
       <td>SOl+</td>
       <td>SOl-</td>
     </tr>
-
     <tr>
       <td>5V</td>
       <td>5V</td>
     </tr>
-
     <tr>
       <td>3V3</td>
       <td>3V3</td>
     </tr>
-
     <tr>
       <td>MISO1</td>
       <td>MOSI1</td>
     </tr>
-
     <tr>
       <td>SCK1</td>
       <td>CAN_H</td>
     </tr>
-
     <tr>
       <td>SDA </td>
       <td>CAN_L</td>
