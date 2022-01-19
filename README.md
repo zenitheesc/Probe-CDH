@@ -65,7 +65,7 @@ This board contains a Stack Connector, with the 2021 Z-Hub pinout.
 <table align = "center">
   <thead>
     <tr>
-      <th colspan=2>Z-Hub 2021</th>
+      <th colspan=2>   Z-Hub 2021   </th>
     </tr>
   </thead>
   <tbody>
