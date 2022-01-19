@@ -55,7 +55,7 @@ This board was designed using KiCad 5.1.10.
 This board contains a Stack Connector, with the 2021 Z-Hub pinout.
 
 
-<table align = "center" style = "width:400px">
+<table align = "center">
   <thead>
     <tr>
       <th colspan=2>   Z-Hub 2021   </th>
