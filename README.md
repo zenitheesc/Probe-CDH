@@ -62,7 +62,7 @@ This board contains a Stack Connector, with the 2021 Z-Hub pinout.
 
 
 
-<table>
+<table align = "center">
   <thead>
     <tr>
       <th colspan=2>Z-Hub 2021</th>
@@ -105,57 +105,46 @@ This board contains a Stack Connector, with the 2021 Z-Hub pinout.
       <td>SDA </td>
       <td>CAN_L</td>
     </tr>
-
     <tr>
       <td>SCL</td>
       <td>CE02</td>
     </tr>
-
     <tr>
       <td>CE11</td>
       <td>CE12</td>
     </tr>
-
     <tr>
       <td>SDA1</td>
       <td>SCL1</td>
     </tr>
-
     <tr>
       <td>SDA2</td>
       <td>SCL2</td>
     </tr>
-
     <tr>
       <td>TX1</td>
       <td>RX1</td>
     </tr>
-
     <tr>
       <td>TX2</td>
       <td>RX2</td>
     </tr>
-
     <tr>
       <td>DIG1</td>
       <td>DIG6</td>
     </tr>
-
     <tr>
       <td>ALRT1</td>
       <td>/CHRG</td>
     </tr>
-
     <tr>
       <td>PWM</td>
       <td>DIG8</td>
     </tr>
-
     <tr>
       <td>/FAULT</td>
       <td>DIG9</td>
     </tr>
-
     <tr>
       <td>DIG5</td>
       <td>DIG10</td>
