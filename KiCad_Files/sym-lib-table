@@ -1,3 +1,2 @@
-(sym_lib_table
-  (lib (name Caurin-v.2.0-rescue)(type Legacy)(uri "${KIPRJMOD}/Caurin v.2.0-rescue.lib")(options "")(descr ""))
-)
+(sym_lib_table    (lib (name archive)(type Legacy)(uri "${KIPRJMOD}/Caurin v.2.0-archive.lib")(options "")(descr ""))
+  (lib (name Caurin-v.2.0-rescue)(type Legacy)(uri "${KIPRJMOD}/Caurin v.2.0-rescue.lib")(options "")(descr "")))
