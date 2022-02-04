@@ -1,4 +1,4 @@
-20835674138234355
+20837330323219806
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -80010,6 +80010,13 @@ Undefined or Miscellaneous
 5
 5
 SamacSys_Parts
+3030
+3030-1
+Undefined or Miscellaneous
+0
+3
+3
+SamacSys_Parts
 532610527
 53261-0527-2
 Connector
@@ -80207,8 +80214,8 @@ MOSFET (N-Channel)
 3
 SamacSys_Parts
 SOT65P210X110-3N
-SOT323 (SC-70)
-Diode
+SC70 (SOT-323)
+Transistor
 0
 3
 3
