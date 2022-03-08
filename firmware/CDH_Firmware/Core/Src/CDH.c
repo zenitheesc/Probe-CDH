@@ -22,7 +22,7 @@ extern osThreadId_t Executer_TaskHandle;
 extern osMessageQueueId_t CAN_QueueHandle;
 extern osMessageQueueId_t Radio_QueueHandle;
 extern osMessageQueueId_t GPS_QueueHandle;
-extern osMessageQueueId_t OBC_Fragment_QueueHandle;
+extern osMessageQueueId_t OBC_Fragment_QueueHandle;OBC
 extern osMessageQueueId_t RAS_Fragment_QueueHandle;
 extern osMessageQueueId_t OBC_Blob_QueueHandle;
 extern osMessageQueueId_t RAS_Blob_QueueHandle;
@@ -366,7 +366,7 @@ void RAS_TimerFun(void *argument) {
 	CAN_Event_t request = { .type = TX, .ID = REQ_DATA_RAS, .data = { 0 } };
 	osMessageQueuePut(CAN_QueueHandle, &request, 0, 0);
 	if (osMutexAcquire(Config_MutexHandle, 0)) {
-		xTimerChangePeriod(OBC_TimerHandle, config.values.ras_timer, 0);
+		xTimerChangePeriod(RAS_TimerHandle, config.values.ras_timer, 0);
 		osMutexRelease(Config_MutexHandle);
 	}
 }
@@ -375,7 +375,7 @@ void RAS_TimerFun(void *argument) {
 void Radio_TimerFun(void *argument) {
 	osThreadFlagsSet(PktBuilder_TaskHandle, 0x01);
 	if (osMutexAcquire(Config_MutexHandle, 0)) {
-		xTimerChangePeriod(OBC_TimerHandle, config.values.radio_timer, 0);
+		xTimerChangePeriod(Radio_TimerHandle, config.values.radio_timer, 0);
 		osMutexRelease(Config_MutexHandle);
 	}
 }
@@ -384,7 +384,7 @@ void Radio_TimerFun(void *argument) {
 void GPS_TimerFun(void *argument) {
 	osThreadFlagsSet(GPS_TaskHandle, 0x01);
 	if (osMutexAcquire(Config_MutexHandle, 0)) {
-		xTimerChangePeriod(OBC_TimerHandle, config.values.gps_timer, 0);
+		xTimerChangePeriod(GPS_TimerHandle, config.values.gps_timer, 0);
 		osMutexRelease(Config_MutexHandle);
 	}
 
