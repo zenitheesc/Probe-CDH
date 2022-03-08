@@ -248,7 +248,7 @@ void PktBuilder_TaskFun(void *argument) {
 
 	while (true) {
 		osThreadFlagsWait(0x01, osFlagsWaitAny, osWaitForever);
-		int packet_type = counter % sizeof(radio_packet_types_t);
+		int packet_type = counter % 3;
 		switch (packet_type) {
 		case ZENITH_FULL:
 			debug("[Packet] Building a FullPacket")
