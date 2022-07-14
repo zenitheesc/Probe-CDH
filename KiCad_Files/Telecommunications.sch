@@ -312,30 +312,19 @@ Text Notes 725  4675 0    98   Italic 20
 LoRa & (G)FSK 22dBm Radio
 Wire Notes Line
 	500  4325 6950 4325
-$Comp
-L archive:RF_Modules_Zenith_2AD66-1262 U2
-U 1 1 614C66F0
-P 3575 5575
-F 0 "U2" H 4025 5425 50  0000 C CNN
-F 1 "2AD66-1262" H 3425 5425 50  0000 C CNN
-F 2 "RF_Modules_Zenith:2AD66-126x" H 3975 5425 50  0001 C CNN
-F 3 "" H 3975 5425 50  0001 C CNN
-	1    3575 5575
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4875 2900 4925 2900
 Text HLabel 4925 2900 2    50   Input ~ 0
 RADIOS_MISO
-Text HLabel 4225 6475 2    50   Input ~ 0
+Text HLabel 4225 6525 2    50   Input ~ 0
 RADIOS_MOSI
 Wire Wire Line
-	4225 6475 4175 6475
-Text HLabel 4225 6275 2    50   Input ~ 0
+	4225 6525 4175 6525
+Text HLabel 4225 6325 2    50   Input ~ 0
 RADIOS_SCK
 Wire Wire Line
-	4175 6275 4225 6275
-Text HLabel 4225 6375 2    50   Input ~ 0
+	4175 6325 4225 6325
+Text HLabel 4225 6425 2    50   Input ~ 0
 RADIOS_MISO
 $Comp
 L archive:power_GND #PWR?
@@ -420,17 +409,6 @@ Wire Wire Line
 Connection ~ 5000 2700
 Wire Wire Line
 	5000 2700 5100 2700
-Text HLabel 4375 6175 2    50   Input ~ 0
-RADIO2_NSS
-Wire Wire Line
-	4175 6175 4275 6175
-Wire Wire Line
-	4275 5825 4275 6175
-Wire Wire Line
-	4275 6175 4375 6175
-Connection ~ 4275 6175
-Wire Wire Line
-	5000 5875 4175 5875
 Wire Wire Line
 	5050 5975 5050 6125
 Wire Wire Line
@@ -442,52 +420,46 @@ Wire Wire Line
 $Comp
 L archive:Device_C_Small C13
 U 1 1 61544A14
-P 2825 5725
-F 0 "C13" H 2917 5771 50  0000 L CNN
-F 1 "1uF" H 2917 5680 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 2825 5725 50  0001 C CNN
-F 3 "~" H 2825 5725 50  0001 C CNN
-	1    2825 5725
+P 3525 5250
+F 0 "C13" H 3617 5296 50  0000 L CNN
+F 1 "1uF" H 3617 5205 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 3525 5250 50  0001 C CNN
+F 3 "~" H 3525 5250 50  0001 C CNN
+	1    3525 5250
 	-1   0    0    -1  
 $EndComp
 $Comp
 L archive:power_GND #PWR?
 U 1 1 61544A1A
-P 2825 5875
+P 3525 5400
 AR Path="/60D267AF/61544A1A" Ref="#PWR?"  Part="1" 
 AR Path="/60D892C4/61544A1A" Ref="#PWR?"  Part="1" 
 AR Path="/613F33BD/61544A1A" Ref="#PWR0134"  Part="1" 
-F 0 "#PWR0134" H 2825 5625 50  0001 C CNN
-F 1 "GND" H 2830 5702 50  0000 C CNN
-F 2 "" H 2825 5875 50  0001 C CNN
-F 3 "" H 2825 5875 50  0001 C CNN
-	1    2825 5875
+F 0 "#PWR0134" H 3525 5150 50  0001 C CNN
+F 1 "GND" H 3530 5227 50  0000 C CNN
+F 2 "" H 3525 5400 50  0001 C CNN
+F 3 "" H 3525 5400 50  0001 C CNN
+	1    3525 5400
 	1    0    0    -1  
 $EndComp
+Connection ~ 3675 5100
 Wire Wire Line
-	2825 5575 2975 5575
+	3675 5100 3525 5100
 Wire Wire Line
-	2975 5575 2975 5875
-Wire Wire Line
-	2975 5875 3075 5875
-Connection ~ 2825 5575
-Wire Wire Line
-	2825 5575 2825 5625
-Wire Wire Line
-	2825 5825 2825 5875
+	3525 5350 3525 5400
 $Comp
 L archive:power_+3V3 #PWR0135
 U 1 1 615473DA
-P 2825 5525
-F 0 "#PWR0135" H 2825 5375 50  0001 C CNN
-F 1 "+3V3" H 2840 5698 50  0000 C CNN
-F 2 "" H 2825 5525 50  0001 C CNN
-F 3 "" H 2825 5525 50  0001 C CNN
-	1    2825 5525
+P 3675 5050
+F 0 "#PWR0135" H 3675 4900 50  0001 C CNN
+F 1 "+3V3" H 3690 5223 50  0000 C CNN
+F 2 "" H 3675 5050 50  0001 C CNN
+F 3 "" H 3675 5050 50  0001 C CNN
+	1    3675 5050
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2825 5525 2825 5575
+	3675 5050 3675 5100
 Text HLabel 3875 3000 0    50   Input ~ 0
 RADIO1_DIO3
 Wire Wire Line
@@ -525,22 +497,20 @@ Wire Wire Line
 Wire Wire Line
 	4475 3475 4475 3400
 Connection ~ 4425 3475
-Text HLabel 2975 6375 0    50   Input ~ 0
+Text HLabel 1350 5800 0    50   Input ~ 0
 RADIO2_DIO1
 Wire Wire Line
-	2975 6375 3075 6375
-Text HLabel 2975 6275 0    50   Input ~ 0
+	1350 5800 1450 5800
+Text HLabel 1350 6700 0    50   Input ~ 0
 RADIO2_DIO3
 Wire Wire Line
-	2975 6475 3075 6475
-Text HLabel 2975 6175 0    50   Input ~ 0
+	2975 6575 3075 6575
+Text HLabel 2975 5975 0    50   Input ~ 0
 RADIO2_NRST
 Wire Wire Line
-	2975 6175 3075 6175
-Text HLabel 2975 6475 0    50   Input ~ 0
+	2975 5975 3075 5975
+Text HLabel 2975 6575 0    50   Input ~ 0
 RADIO2_BUSY
-Wire Wire Line
-	2975 6275 3075 6275
 $Comp
 L archive:power_GND #PWR?
 U 1 1 6157989A
@@ -662,7 +632,7 @@ Connection ~ 3625 6900
 Wire Wire Line
 	3625 6900 3725 6900
 Wire Wire Line
-	4175 6375 4225 6375
+	4175 6425 4225 6425
 $Comp
 L archive:dk_Coaxial-Connectors-RF_CONSMA001-SMD-G J4
 U 1 1 624D77E2
@@ -1108,4 +1078,105 @@ B0 D1 0F 03 1F 22 9D 18 B2 10 E9 34 F5 11 A4 A3 70 66 CB AE A9 D9 F5 36 E9 1C BB
 4E 44 AE 42 60 82 
 EndData
 $EndBitmap
+Wire Wire Line
+	3525 5100 3525 5150
+Wire Wire Line
+	3675 5100 3675 5675
+$Comp
+L archive:RF_Modules_Zenith_2AD66-1262 U2
+U 1 1 614C66F0
+P 3575 5575
+F 0 "U2" H 4025 5425 50  0000 C CNN
+F 1 "2AD66-1262" H 3325 5425 50  0000 C CNN
+F 2 "RF_Modules_Zenith:2AD66-126x" H 3975 5425 50  0001 C CNN
+F 3 "" H 3975 5425 50  0001 C CNN
+	1    3575 5575
+	1    0    0    -1  
+$EndComp
+NoConn ~ 3075 6475
+$Comp
+L Jumper:SolderJumper_3_Open JP3
+U 1 1 62D44341
+P 1600 5800
+F 0 "JP3" V 1500 5625 50  0000 L CNN
+F 1 "SolderJumper_3_Open" V 1725 4950 50  0000 L CNN
+F 2 "Caurin_Footprints:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels" H 1600 5800 50  0001 C CNN
+F 3 "~" H 1600 5800 50  0001 C CNN
+	1    1600 5800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1600 5600 1600 5550
+Wire Wire Line
+	1600 5550 1850 5550
+Wire Wire Line
+	1850 5550 1850 5750
+Wire Wire Line
+	1850 5850 1850 6050
+Wire Wire Line
+	1600 6050 1600 6000
+Wire Wire Line
+	1850 6050 1600 6050
+Text Notes 575  7700 0    59   ~ 0
+The solder jumpers enable the use of the DIO0 and DIO4 of the\nSX1276 module from NiceRF, which uses the same packaging.\nSince we are out of  pins in the STM the solder jumper does\nthe trick with backwards compatibility.
+Wire Wire Line
+	1350 6700 1450 6700
+$Comp
+L Jumper:SolderJumper_3_Open JP4
+U 1 1 62D9AB35
+P 1600 6700
+F 0 "JP4" V 1500 6525 50  0000 L CNN
+F 1 "SolderJumper_3_Open" V 1725 5850 50  0000 L CNN
+F 2 "Caurin_Footprints:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels" H 1600 6700 50  0001 C CNN
+F 3 "~" H 1600 6700 50  0001 C CNN
+	1    1600 6700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1600 6500 1600 6450
+Wire Wire Line
+	1600 6450 1850 6450
+Wire Wire Line
+	1850 6450 1850 6650
+Wire Wire Line
+	1850 6750 1850 6950
+Wire Wire Line
+	1600 6950 1600 6900
+Wire Wire Line
+	1850 6950 1600 6950
+Wire Wire Line
+	2225 6650 2225 6275
+Wire Wire Line
+	2225 6275 3075 6275
+Wire Wire Line
+	2325 6750 2325 6375
+Wire Wire Line
+	2325 6375 3075 6375
+Wire Wire Line
+	1850 6650 2225 6650
+Wire Wire Line
+	2325 6750 1850 6750
+Wire Wire Line
+	1850 5850 2225 5850
+Wire Wire Line
+	2225 5850 2225 6175
+Wire Wire Line
+	2225 6175 3075 6175
+Wire Wire Line
+	3075 6075 2325 6075
+Wire Wire Line
+	2325 6075 2325 5750
+Wire Wire Line
+	2325 5750 1850 5750
+Wire Wire Line
+	5000 5875 4175 5875
+Connection ~ 4275 6225
+Wire Wire Line
+	4275 6225 4375 6225
+Wire Wire Line
+	4275 5825 4275 6225
+Wire Wire Line
+	4175 6225 4275 6225
+Text HLabel 4375 6225 2    50   Input ~ 0
+RADIO2_NSS
 $EndSCHEMATC

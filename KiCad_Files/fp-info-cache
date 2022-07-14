@@ -1,4 +1,4 @@
-20837330323219806
+20974071930309122
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -6131,6 +6131,244 @@ capacitor tantalum
 0
 2
 2
+Caurin_Footprints
+2AD66-126x
+
+
+0
+16
+16
+Caurin_Footprints
+3030
+3030-1
+Undefined or Miscellaneous
+0
+3
+3
+Caurin_Footprints
+532611071
+53261-1071
+Connector
+0
+12
+12
+Caurin_Footprints
+533980771
+53398-0771-1
+Connector
+0
+9
+9
+Caurin_Footprints
+C_0603_1608Metric
+Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
+capacitor
+0
+2
+2
+Caurin_Footprints
+C_0805_2012Metric
+Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator
+capacitor
+0
+2
+2
+Caurin_Footprints
+CaurinLogo2021Under_7,5mm
+
+
+0
+0
+0
+Caurin_Footprints
+Coax_Conn_U.FL
+https://media.digikey.com/pdf/Data%20Sheets/Hirose%20PDFs/UFL%20Series.pdf
+
+0
+3
+2
+Caurin_Footprints
+Crystal_SMD_3215-2Pin_3.2x1.5mm
+SMD Crystal FC-135 https://support.epson.biz/td/api/doc_check.php?dl=brief_FC-135R_en.pdf
+SMD SMT Crystal
+0
+2
+2
+Caurin_Footprints
+Crystal_SMD_5032-4Pin_5.0x3.2mm_Hand_Soldering
+SMD Crystal SERIES SMD2520/4 http://www.icbase.com/File/PDF/HKC/HKC00061008.pdf, 5.0x3.2mm^2 package
+SMD SMT crystal
+0
+4
+4
+Caurin_Footprints
+D_0603_1608Metric
+Diode SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+diode
+0
+2
+2
+Caurin_Footprints
+ESQ-120-Y-X-D
+ESQ-120-Y-X-D
+Connector
+0
+40
+40
+Caurin_Footprints
+JST_EH_B2B-EH-A_1x02_P2.50mm_Vertical
+JST EH series connector, B2B-EH-A (http://www.jst-mfg.com/product/pdf/eng/eEH.pdf), generated with kicad-footprint-generator
+connector JST EH vertical
+0
+2
+2
+Caurin_Footprints
+LED_0805_2012Metric
+LED SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator
+LED
+0
+2
+2
+Caurin_Footprints
+LQFP-64_10x10mm_P0.5mm
+LQFP, 64 Pin (https://www.analog.com/media/en/technical-documentation/data-sheets/ad7606_7606-6_7606-4.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
+LQFP QFP
+0
+64
+64
+Caurin_Footprints
+L_0402_1005Metric_Pad0.77x0.64mm_HandSolder
+Inductor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+inductor handsolder
+0
+2
+2
+Caurin_Footprints
+LoRa1262F30
+
+
+0
+16
+16
+Caurin_Footprints
+Logo_10,8mm
+
+
+0
+0
+0
+Caurin_Footprints
+Logo_29,1mm
+
+
+0
+0
+0
+Caurin_Footprints
+MEM20750014001A
+MEM2075-00-140-01-A-1
+Connector
+0
+13
+13
+Caurin_Footprints
+PTS636SM43JSMTRLFS
+PTS636 SM43J SMTR LFS-1
+Switch
+0
+2
+2
+Caurin_Footprints
+RF_SMA_Vertical_5-1814832-1
+
+
+0
+5
+2
+Caurin_Footprints
+R_0603_1608Metric
+Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
+resistor
+0
+2
+2
+Caurin_Footprints
+R_0805_2012Metric
+Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
+resistor
+0
+2
+2
+Caurin_Footprints
+SEIKO_ML414H_IV01E
+
+
+0
+2
+2
+Caurin_Footprints
+SOIC-8_3.9x4.9mm_P1.27mm
+SOIC, 8 Pin (JEDEC MS-012AA, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_narrow-r/r_8.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SOIC SO
+0
+8
+8
+Caurin_Footprints
+SOIC-8_W5.6mm
+
+
+0
+8
+8
+Caurin_Footprints
+SOT-23-3
+
+
+0
+3
+3
+Caurin_Footprints
+SOT-323_SC-70
+SOT-323, SC-70
+SOT-323 SC-70
+0
+3
+3
+Caurin_Footprints
+SOT230P700X180-4N
+SOT_223
+MOSFET (N-Channel)
+0
+4
+4
+Caurin_Footprints
+ST_D2PAK
+ST_D2PAK
+Integrated Circuit
+0
+3
+3
+Caurin_Footprints
+SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels
+SMD Solder 3-pad Jumper, 1x1.5mm rounded Pads, 0.3mm gap, open, labeled with numbers
+solder jumper open
+0
+3
+3
+Caurin_Footprints
+YC164JR07220RL
+YC164_FFW
+Resistor Network
+0
+8
+8
+Caurin_Footprints
+ublox_NEO
+ublox NEO 6/7/8, (https://www.u-blox.com/sites/default/files/NEO-8Q-NEO-M8-FW3_HardwareIntegrationManual_%28UBX-15029985%29_0.pdf)
+GPS ublox NEO 6/7/8
+0
+24
+24
 Connector
 Banana_Jack_1Pin
 Single banana socket, footprint - 6mm drill
@@ -59696,6 +59934,20 @@ Yellow 5381 Series LED
 2
 2
 LogosZenith
+2.4_GHZ_Antenna_Left_Art
+http://www.ti.com/lit/an/swra117d/swra117d.pdf
+PCB antenna
+0
+0
+0
+LogosZenith
+2.4_GHZ_Antenna_Rigth_Art
+http://www.ti.com/lit/an/swra117d/swra117d.pdf
+PCB antenna
+0
+0
+0
+LogosZenith
 AlcantaraLogoReto_1,8mm
 
 
@@ -59732,6 +59984,27 @@ AlcantaraLogo_6,7mm
 0
 LogosZenith
 AlcantaraLogo_15mm
+
+
+0
+0
+0
+LogosZenith
+AlcantaraLogo_2022_4,4mm
+
+
+0
+0
+0
+LogosZenith
+Alcantarav+Logo_3,6mm
+
+
+0
+0
+0
+LogosZenith
+Alcantarav.1.0_1,3mm
 
 
 0
@@ -59794,6 +60067,13 @@ CaurinLogoV2_3mm
 0
 0
 LogosZenith
+CaurinLogoV2_noyear_7mm
+
+
+0
+0
+0
+LogosZenith
 CaurinLogo_2,5mm
 
 
@@ -59823,6 +60103,13 @@ CaurinLogo_8,5mm
 0
 LogosZenith
 Logo_10,8mm
+
+
+0
+0
+0
+LogosZenith
+Logo_10,8mm_F_Cu
 
 
 0
@@ -59886,6 +60173,20 @@ ThisBetterWork_15,9mm
 0
 LogosZenith
 ThisBetterWork_15,9mm_2
+
+
+0
+0
+0
+LogosZenith
+v.1.0 - 2021_1,6mm
+
+
+0
+0
+0
+LogosZenith
+v.1.0 - 2021_2,1mm
 
 
 0
@@ -80199,6 +80500,20 @@ Integrated Circuit
 15
 15
 SamacSys_Parts
+SON50P100X145X60-6N-D
+UQFN 1.45x1 6L-1
+TVS Diode (Uni-directional)
+0
+6
+6
+SamacSys_Parts
+SON225P300X800X143-6N
+M830120
+Antenna
+0
+6
+6
+SamacSys_Parts
 SOP65P490X110-8N
 8 µMAX HEIGHT 1.1
 Integrated Circuit
@@ -80234,6 +80549,13 @@ Integrated Circuit
 3
 3
 SamacSys_Parts
+SOT95P275X110-6N
+(SC-74; TSOP6); 6 leads
+Integrated Circuit
+0
+6
+6
+SamacSys_Parts
 SOT95P280X145-5N
 [SOT-23] (RJ-5)
 Integrated Circuit
@@ -80241,9 +80563,16 @@ Integrated Circuit
 5
 5
 SamacSys_Parts
+SOT95P280X145-6N
+MCP1501T-10E/CHY-1
+Integrated Circuit
+0
+6
+6
+SamacSys_Parts
 SOT230P700X180-4N
-SOT_223
-MOSFET (N-Channel)
+(DB) [SOT-223]
+Integrated Circuit
 0
 4
 4
@@ -86323,6 +86652,216 @@ valve
 0
 9
 8
+Varella_Footprints
+3030
+3030-1
+Undefined or Miscellaneous
+0
+3
+3
+Varella_Footprints
+532611071
+53261-1071
+Connector
+0
+12
+12
+Varella_Footprints
+532617002
+53261-7002
+Connector
+0
+4
+4
+Varella_Footprints
+C_0603_1608Metric
+Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
+capacitor
+0
+2
+2
+Varella_Footprints
+C_0805_2012Metric
+Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator
+capacitor
+0
+2
+2
+Varella_Footprints
+Crystal_SMD_3215-2Pin_3.2x1.5mm
+SMD Crystal FC-135 https://support.epson.biz/td/api/doc_check.php?dl=brief_FC-135R_en.pdf
+SMD SMT Crystal
+0
+2
+2
+Varella_Footprints
+Crystal_SMD_5032-4Pin_5.0x3.2mm_Hand_Soldering
+SMD Crystal SERIES SMD2520/4 http://www.icbase.com/File/PDF/HKC/HKC00061008.pdf, 5.0x3.2mm^2 package
+SMD SMT crystal
+0
+4
+4
+Varella_Footprints
+ESQ-120-Y-X-D
+ESQ-120-Y-X-D
+Connector
+0
+40
+40
+Varella_Footprints
+InvenSense_QFN-24_4x4mm_P0.5mm
+24-Lead Plastic QFN (4mm x 4mm); Pitch 0.5mm; EP 2.7x2.6mm; for InvenSense motion sensors; keepout area marked (Package see: https://store.invensense.com/datasheets/invensense/MPU-6050_DataSheet_V3%204.pdf; See also https://www.invensense.com/wp-content/uploads/2015/02/InvenSense-MEMS-Handling.pdf)
+QFN 0.5
+0
+24
+24
+Varella_Footprints
+LED_0805_2012Metric
+LED SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator
+LED
+0
+2
+2
+Varella_Footprints
+LQFP-64_10x10mm_P0.5mm
+LQFP, 64 Pin (https://www.analog.com/media/en/technical-documentation/data-sheets/ad7606_7606-6_7606-4.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
+LQFP QFP
+0
+64
+64
+Varella_Footprints
+Logo_29,1mm
+
+
+0
+0
+0
+Varella_Footprints
+MEM20750014001A
+MEM2075-00-140-01-A-1
+Connector
+0
+13
+13
+Varella_Footprints
+MMC5983MA
+MMC5983MA-7
+Integrated Circuit
+0
+16
+16
+Varella_Footprints
+MPX5070GP
+
+
+0
+6
+6
+Varella_Footprints
+PTS636SM43JSMTRLFS
+PTS636 SM43J SMTR LFS-1
+Switch
+0
+2
+2
+Varella_Footprints
+R_0805_2012Metric
+Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
+resistor
+0
+2
+2
+Varella_Footprints
+SMD-8_5x3mm
+http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=MS5607-02BA03&DocType=Data+Sheet&DocLang=English
+
+0
+8
+8
+Varella_Footprints
+SOIC-8_3.9x4.9mm_P1.27mm
+SOIC, 8 Pin (JEDEC MS-012AA, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_narrow-r/r_8.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SOIC SO
+0
+8
+8
+Varella_Footprints
+SOIC-8_W5.6mm
+
+
+0
+8
+8
+Varella_Footprints
+SOP65P490X110-8N
+8 µMAX HEIGHT 1.1
+Integrated Circuit
+0
+8
+8
+Varella_Footprints
+SOT-23-3
+
+
+0
+3
+3
+Varella_Footprints
+SOT-323_SC-70
+SOT-323, SC-70
+SOT-323 SC-70
+0
+3
+3
+Varella_Footprints
+SOT95P280X145-6N
+MCP1501T-10E/CHY-1
+Integrated Circuit
+0
+6
+6
+Varella_Footprints
+SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels
+SMD Solder 3-pad Jumper, 1x1.5mm rounded Pads, 0.3mm gap, open, labeled with numbers
+solder jumper open
+0
+3
+3
+Varella_Footprints
+TC33X-2_1
+TC33X-2_1
+Variable Resistor
+0
+3
+3
+Varella_Footprints
+TestPoint_Pad_D2.0mm
+SMD pad as test Point, diameter 2.0mm
+test point SMD pad
+0
+1
+1
+Varella_Footprints
+Texas_PWSON-N6
+Plastic Small Outline No-Lead http://www.ti.com/lit/ml/mpds176e/mpds176e.pdf
+Plastic Small Outline No-Lead
+0
+7
+7
+Varella_Footprints
+YC164JR07220RL
+YC164_FFW
+Resistor Network
+0
+8
+8
+Varella_Footprints
+ZMOD4410AI3V
+ZMOD4410AI3V-1
+Integrated Circuit
+0
+12
+12
 Varistor
 RV_Disc_D7mm_W3.4mm_P5mm
 Varistor, diameter 7mm, width 3.4mm, pitch 5mm
@@ -87024,6 +87563,13 @@ varistor SIOV
 2
 2
 Zenith_Homemade_Components
+BatteryHolder_Short_Pin_Keystone_1042_1x18650
+Battery holder for 18650 cylindrical cells http://www.keyelco.com/product.cfm/product_id/918
+18650 Keystone 1042 Li-ion
+0
+2
+2
+Zenith_Homemade_Components
 Crystal_SMD_5032-4Pin_5.0x3.2mm
 SMD Crystal SERIES SMD2520/4 http://www.icbase.com/File/PDF/HKC/HKC00061008.pdf, 5.0x3.2mm^2 package
 SMD SMT crystal
@@ -87051,6 +87597,41 @@ MPX5070GP
 0
 6
 6
+Zenith_Homemade_Components
+Through_Hole_2.0mm_1.00mm
+
+
+0
+1
+1
+Zenith_Homemade_Components
+Through_Hole_2.3mm_1.10mm
+
+
+0
+1
+1
+Zenith_Homemade_Components
+Through_Hole_2.5mm_1.25mm
+
+
+0
+1
+1
+Zenith_Homemade_Components
+Through_Hole_2.7mm_1.35mm
+
+
+0
+1
+1
+Zenith_Homemade_Components
+Through_Hole_3.0mm_1.50mm
+
+
+0
+1
+1
 digikey-footprints
 3-SIP_Module_TM1000Q
 
